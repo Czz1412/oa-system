@@ -1,8 +1,8 @@
 package com.atguigu.auth.service.impl;
 
-import com.atguigu.auth.entity.SysUser;
 import com.atguigu.auth.mapper.SysUserMapper;
 import com.atguigu.auth.service.SysUserService;
+import com.atguigu.model.system.SysUser;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

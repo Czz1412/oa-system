@@ -1,9 +1,9 @@
 package com.atguigu.auth.controller;
 
 
-import com.atguigu.auth.entity.SysUser;
 import com.atguigu.auth.service.SysUserService;
 import com.atguigu.common.result.Result;
+import com.atguigu.model.system.SysUser;
 import com.atguigu.vo.system.SysUserQueryVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

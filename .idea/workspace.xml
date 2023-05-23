@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/CodeGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/system/helper/MenuHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/CodeGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/CodeGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/CodeGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/entity/SysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/mapper/SysUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684841560609</updated>
-      <workItem from="1684841568193" duration="9919000" />
+      <workItem from="1684841568193" duration="10826000" />
     </task>
     <task id="LOCAL-00001" summary="整合MyBatisPlus并进行测试">
       <created>1684847008751</created>
@@ -169,16 +176,43 @@
       <option name="project" value="LOCAL" />
       <updated>1684853346744</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加用户相关的crud">
+      <created>1684854616252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684854616252</updated>
+    </task>
+    <task id="LOCAL-00005" summary="添加用户相关的crud，包括和角色的关联关系">
+      <created>1684854748250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684854748250</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整合MyBatisPlus并进行测试" />
     <MESSAGE value="统一返回结果，整合knife4j管理api" />
     <MESSAGE value="添加分页插件，并添加全局异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加分页插件，并添加全局异常处理" />
+    <MESSAGE value="添加用户相关的crud" />
+    <MESSAGE value="添加用户相关的crud，包括和角色的关联关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户相关的crud，包括和角色的关联关系" />
   </component>
 </project>
