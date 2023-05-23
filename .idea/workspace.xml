@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysRoleMenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/system/helper/MenuHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/CodeGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/CodeGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/entity/SysUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/jwt/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/md5/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/CodeGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/CodeGet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/controller/SysUserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/entity/SysUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/mapper/SysUserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/md5" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -85,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workplace\guigu-oa-parent\common\common-util\src\main\java\com\atguigu\common\md5" />
       <recent name="E:\workplace\guigu-oa-parent\service-oa\src\main\java\com\atguigu" />
       <recent name="E:\workplace\guigu-oa-parent\model\src\main\java\com\atguigu" />
       <recent name="E:\workplace\guigu-oa-parent\model\src\main\java\com\atguigu\model" />
@@ -153,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684841560609</updated>
-      <workItem from="1684841568193" duration="10826000" />
+      <workItem from="1684841568193" duration="11674000" />
     </task>
     <task id="LOCAL-00001" summary="整合MyBatisPlus并进行测试">
       <created>1684847008751</created>
@@ -190,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684854748250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改了使用代码生成器使用的实体类，对菜单进行crud，包括菜单表和角色表之间的关联关系">
+      <created>1684855597107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684855597107</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +213,7 @@
     <MESSAGE value="添加分页插件，并添加全局异常处理" />
     <MESSAGE value="添加用户相关的crud" />
     <MESSAGE value="添加用户相关的crud，包括和角色的关联关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加用户相关的crud，包括和角色的关联关系" />
+    <MESSAGE value="修改了使用代码生成器使用的实体类，对菜单进行crud，包括菜单表和角色表之间的关联关系" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了使用代码生成器使用的实体类，对菜单进行crud，包括菜单表和角色表之间的关联关系" />
   </component>
 </project>
