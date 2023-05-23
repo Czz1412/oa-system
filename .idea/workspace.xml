@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理">
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" afterDir="false" />
+    <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/util/ResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/CustomMd5PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/CustomUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/custom/UserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/fillter/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/fillter/TokenLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/ResultCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/target/classes/com/atguigu/common/result/ResultCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring-security/src/main/java/com/atguigu/security/config/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +69,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/md5" />
@@ -144,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684841560609</updated>
-      <workItem from="1684841568193" duration="12083000" />
+      <workItem from="1684841568193" duration="13613000" />
     </task>
     <task id="LOCAL-00001" summary="整合MyBatisPlus并进行测试">
       <created>1684847008751</created>
@@ -195,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684856515680</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加了对按钮的权限查询，并添加了引入了springsecurity">
+      <created>1684857055592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684857055592</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +236,7 @@
     <MESSAGE value="添加用户相关的crud，包括和角色的关联关系" />
     <MESSAGE value="修改了使用代码生成器使用的实体类，对菜单进行crud，包括菜单表和角色表之间的关联关系" />
     <MESSAGE value="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理" />
+    <MESSAGE value="添加了对按钮的权限查询，并添加了引入了springsecurity" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了对按钮的权限查询，并添加了引入了springsecurity" />
   </component>
 </project>
