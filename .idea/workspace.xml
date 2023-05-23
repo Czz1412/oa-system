@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/result/ResultCodeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/knife4j/Knife4jConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service-util/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/ServiceAuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/ServiceAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/config/mp/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service-util/src/main/java/com/atguigu/common/execption/GuiguException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684841560609</updated>
-      <workItem from="1684841568193" duration="7665000" />
+      <workItem from="1684841568193" duration="8659000" />
     </task>
     <task id="LOCAL-00001" summary="整合MyBatisPlus并进行测试">
       <created>1684847008751</created>
@@ -145,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684847008751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="统一返回结果，整合knife4j管理api">
+      <created>1684850058922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684850058922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整合MyBatisPlus并进行测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合MyBatisPlus并进行测试" />
+    <MESSAGE value="统一返回结果，整合knife4j管理api" />
+    <option name="LAST_COMMIT_MESSAGE" value="统一返回结果，整合knife4j管理api" />
   </component>
 </project>
