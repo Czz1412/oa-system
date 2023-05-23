@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/jwt/JwtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/com/atguigu/common/md5/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" afterDir="false" />
+    <list default="true" id="045645a2-c544-4baf-982d-8e5f307ae41c" name="Default Changelist" comment="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理">
+      <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/controller/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/SysUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/src/main/java/com/atguigu/auth/service/impl/SysUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-oa/target/classes/com/atguigu/auth/service/SysUserService.class" afterDir="false" />
@@ -146,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684841560609</updated>
-      <workItem from="1684841568193" duration="11674000" />
+      <workItem from="1684841568193" duration="12083000" />
     </task>
     <task id="LOCAL-00001" summary="整合MyBatisPlus并进行测试">
       <created>1684847008751</created>
@@ -190,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684855597107</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理">
+      <created>1684856515680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684856515680</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +219,7 @@
     <MESSAGE value="添加用户相关的crud" />
     <MESSAGE value="添加用户相关的crud，包括和角色的关联关系" />
     <MESSAGE value="修改了使用代码生成器使用的实体类，对菜单进行crud，包括菜单表和角色表之间的关联关系" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了使用代码生成器使用的实体类，对菜单进行crud，包括菜单表和角色表之间的关联关系" />
+    <MESSAGE value="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加权限功能，查询用户对菜单的权限访问，并添加token对用户进行管理" />
   </component>
 </project>
